@@ -4,6 +4,11 @@
     --top-container-h: 2rem;
 }
 
+/* COMMON */
+.white-font{
+    color: white;
+}
+
 /* TOP CONTAINER */
 #top-container{
     height: var(--top-container-h);
@@ -14,4 +19,14 @@
 /* MAIN CONTAINER */
 #main-container{
     height: calc(100vh - var(--top-container-h));
+
+    box-shadow: 0px 2px 1px 2px rgba(0, 0, 0, 0.5);
+}
+#main-container > .row{
+    height: 100%;
+}
+
+/* Side Bar */
+#side-bar{
+    background-color: #0c2339;
 }
