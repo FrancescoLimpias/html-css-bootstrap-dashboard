@@ -2,7 +2,12 @@
 
     /* Sizing */
     --top-container-h: 60px;
-    --side-bar-width: var(--top-container-h);
+    --side-bar-w: var(--top-container-h);
+    --main-header-h: 182px;
+
+    /* Palette */
+    --color-primary: #1b72e8;
+    --color-primary-dark: #0c2339;
 }
 
 /* COMMON */
@@ -29,11 +34,19 @@
 
 /* Side Bar */
 #side-bar{
-    width: var(--side-bar-width);
-    background-color: #0c2339;
+    height: 100%;
+    width: var(--side-bar-w);
+
+    background-color: var(--color-primary-dark);
 }
 
 /* Main */
 main{
-    width: calc(100vw - var(--side-bar-width));
+    height: 100%;
+    width: calc(100vw - var(--side-bar-w));
+}
+main>header{
+    height: var(--main-header-h);
+    
+    background-color: var(--color-primary);
 }

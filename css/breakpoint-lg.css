@@ -1,6 +1,7 @@
 @media screen and (min-width: 992px){
 
     :root{
-        --side-bar-width: 130px;
+        --side-bar-w: 130px;
+        --main-header-h: 105px;
     }
 }
