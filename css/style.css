@@ -1,0 +1,17 @@
+:root{
+
+    /* Sizing */
+    --top-container-h: 2rem;
+}
+
+/* TOP CONTAINER */
+#top-container{
+    height: var(--top-container-h);
+}
+
+
+
+/* MAIN CONTAINER */
+#main-container{
+    height: calc(100vh - var(--top-container-h));
+}
