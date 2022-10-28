@@ -47,6 +47,12 @@ main{
 }
 main>header{
     height: var(--main-header-h);
-    
+
     background-color: var(--color-primary);
+}
+
+/* main tabs */
+.my_tab{
+    /* border: 1px solid gray;
+    border-radius: 7px; */
 }
