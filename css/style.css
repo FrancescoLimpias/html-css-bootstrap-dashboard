@@ -38,6 +38,14 @@
     width: var(--side-bar-w);
 
     background-color: var(--color-primary-dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/* icons align */
+#side-bar .col-12{
+    text-align: center;
 }
 
 /* Main */
@@ -53,6 +61,6 @@ main>header{
 
 /* main tabs */
 .my_tab{
-    /* border: 1px solid gray;
-    border-radius: 7px; */
+    border: 1px solid gray;
+    border-radius: 7px;
 }
